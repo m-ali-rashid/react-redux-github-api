@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Space Mono Bold';
+  src: local('Space Mono Bold'), local('SpaceMonoBold'),
+       url('../assets/fonts/spaceMono/SpaceMono-Bold.ttf') format('truetype'),
+}
+@font-face {
+  font-family: 'Space Mono';
+  src: local('Space Mono'), local('SpaceMono'),
+       url('../assets/fonts/spaceMono/SpaceMono-Regular.ttf') format('truetype'),
+}
+body {
+   /* background: url('../images/bg.png') no-repeat center center fixed; */
+   /* -webkit-background: cover;
+   -moz-background: cover;
+   -o-background: cover;
+   -webkit-background: cover; */
+}
+
+.MuiTypography-colorInherit{
+  color: #fff;
+}
