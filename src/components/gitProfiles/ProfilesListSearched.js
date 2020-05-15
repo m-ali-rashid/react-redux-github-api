@@ -65,7 +65,7 @@ const ProfilesListSearched = (props) => {
 							 </Typography>
 						 </CardContent>
 						 <CardActions>
-								 <Button component={NavLink} to={'/gits/'+user.login} size="small" variant="contained" color="primary" disableElevation className={classes.button}>Learn More</Button>
+								 <Button component={NavLink} to={'/gitProfiles/'+user.login} size="small" variant="contained" color="primary" disableElevation className={classes.button}>Learn More</Button>
 						 </CardActions>
 					 </Card>
 					 </Grid>
