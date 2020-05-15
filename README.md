@@ -2,17 +2,50 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+We will fetch the list of resourses that make up the official GitHub REST API, using React JS library. Take a look at the preview of this App.
 
-In the project directory, you can run:
+<!-- ![](CoinMarketCap-API.gif) -->
 
-### `yarn start`
+## Getting Started
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+<!-- See deployment for notes on how to deploy the project on a live system. -->
+
+### Prerequisites
+
+Make sure you have npm or yarn package manager installed.
+
+### Installing
+
+After cloning or downloading the zip file for this repository, run the following command in the parent directory
+
+```
+npm install
+```
+or
+```
+yarn install
+```
+
+## Running the App
+
+Following script will start the App in the Development mode
+
+```
+npm start
+```
+or
+```
+yarn start
+```
+This will automatically open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
+
+## Available Scripts
+
+In the project directory, in addition to `yarn start` you can run:
 
 ### `yarn test`
 
@@ -38,14 +71,34 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<!-- ## Deployment
 
-## Learn More
+Will add additional notes about how to deploy this on a live system -->
 
-#### [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-#### [React documentation](https://reactjs.org/).
-#### [Code Splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-#### [Analyzing the Bundle Size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-#### [Making a Progressive Web App](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-#### [Advanced Configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-#### [Deployment](https://facebook.github.io/create-react-app/docs/deployment)
-#### [`yarn build` fails to minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Built With
+
+* [ReactJS](https://reactjs.org/) - The JavaScript Library
+* [React-Redux](https://react-redux.js.org) - Official React bindings for Redux
+* [Material UI](https://material-ui.com) - React UI Framework
+* [Bootstrap](https://getbootstrap.com/) - HTML, CSS and JS library to create UI
+* [Axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and node.js
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/m-ali-rashid/coinmarketcap-api/tags).
+
+## Authors
+
+* **Muhammad Ali Rashid** - *Initial work* - [m-ali-rashid](https://github.com/m-ali-rashid)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+## Acknowledgements
+
+* [**Saad Ibrahim**](https://github.com/saadibrahim) - [*react-redux-gists*](https://github.com/saadibrahim/react-redux-gists)
