@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 We will fetch the list of resourses that make up the official GitHub REST API, using React JS library. Take a look at the preview of this App.
 
-<!-- ![](CoinMarketCap-API.gif) -->
+![](GitHub-API.gif)
 
 ## Getting Started
 
