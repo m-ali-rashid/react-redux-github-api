@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-redux-github-api/static/css/main.d0ba9a9e.chunk.css",
+    "main.js": "/react-redux-github-api/static/js/main.52735ccf.chunk.js",
+    "main.js.map": "/react-redux-github-api/static/js/main.52735ccf.chunk.js.map",
+    "runtime-main.js": "/react-redux-github-api/static/js/runtime-main.30ba56e4.js",
+    "runtime-main.js.map": "/react-redux-github-api/static/js/runtime-main.30ba56e4.js.map",
+    "static/js/2.283018fe.chunk.js": "/react-redux-github-api/static/js/2.283018fe.chunk.js",
+    "static/js/2.283018fe.chunk.js.map": "/react-redux-github-api/static/js/2.283018fe.chunk.js.map",
+    "index.html": "/react-redux-github-api/index.html",
+    "precache-manifest.32c6a0de2aee6ec9ff70aea7a49cc150.js": "/react-redux-github-api/precache-manifest.32c6a0de2aee6ec9ff70aea7a49cc150.js",
+    "service-worker.js": "/react-redux-github-api/service-worker.js",
+    "static/css/main.d0ba9a9e.chunk.css.map": "/react-redux-github-api/static/css/main.d0ba9a9e.chunk.css.map",
+    "static/js/2.283018fe.chunk.js.LICENSE.txt": "/react-redux-github-api/static/js/2.283018fe.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/react-redux-github-api/static/media/SpaceMono-Regular.52eb73db.ttf",
+    "static/media/avatar.png": "/react-redux-github-api/static/media/avatar.df725df2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.30ba56e4.js",
+    "static/js/2.283018fe.chunk.js",
+    "static/css/main.d0ba9a9e.chunk.css",
+    "static/js/main.52735ccf.chunk.js"
+  ]
+}
