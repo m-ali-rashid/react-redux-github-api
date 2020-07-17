@@ -1,5 +1,6 @@
 {
-  "name": "client",
+  "homepage": "http://m-ali-rashid.github.io/react-redux-github-api",
+  "name": "react-redux-github-api",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -28,6 +29,7 @@
     "typeface-roboto": "^0.0.75"
   },
   "devDependencies": {
+    "gh-pages": "^3.1.0",
     "nodemon": "^2.0.2"
   },
   "scripts": {
@@ -36,7 +38,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "cd server && nodemon server.js",
-    "dev": "concurrently \"yarn server\" \"yarn start\" "
+    "dev": "concurrently \"yarn server\" \"yarn start\" ",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "proxy": "http://localhost:5000/",
   "eslintConfig": {
